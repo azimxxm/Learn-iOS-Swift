@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Regular.ttf">
+            <string>Gilroy-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Screen1" customModule="MMEHolding" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="backgroundLastoria" translatesAutoresizingMaskIntoConstraints="NO" id="AJ5-rN-HqI">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="XL2-5b-gUN">
+                    <rect key="frame" x="45" y="152.66666666666663" width="300" height="539"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Lastoria Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ere-s2-bjf">
+                            <rect key="frame" x="73" y="0.0" width="154" height="215"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="154" id="HRp-9U-y77"/>
+                                <constraint firstAttribute="height" constant="215" id="P1a-ia-c0M"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9P-1x-1x0">
+                            <rect key="frame" x="0.0" y="253" width="300" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="140" id="GwT-TX-2sL"/>
+                                <constraint firstAttribute="width" constant="300" id="Ii9-On-KdH"/>
+                            </constraints>
+                            <string key="text">The largest assortment of wedding dresses in Central Asia. Delivering the dress dreams of modern brides around the world. Find your own wedding dress and LaSoria dresses are yours.</string>
+                            <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4cF-f1-pjE">
+                            <rect key="frame" x="110" y="431" width="80" height="20"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GvV-Y2-6Cd">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" name="ButtonColors"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="NyT-Fp-46p"/>
+                                        <constraint firstAttribute="width" constant="20" id="qZG-e8-vuf"/>
+                                        <constraint firstAttribute="width" secondItem="GvV-Y2-6Cd" secondAttribute="height" id="uV0-TP-JgX"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ok9-qb-2ML">
+                                    <rect key="frame" x="30" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="Hko-J7-Do2"/>
+                                        <constraint firstAttribute="width" constant="20" id="MOC-LB-6eg"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cc8-Pa-xPX">
+                                    <rect key="frame" x="60" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="HM9-CA-LB2"/>
+                                        <constraint firstAttribute="height" constant="20" id="HvF-qc-m3o"/>
+                                        <constraint firstAttribute="width" secondItem="Cc8-Pa-xPX" secondAttribute="height" id="vkU-XR-uMg"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="ok9-qb-2ML" firstAttribute="width" secondItem="ok9-qb-2ML" secondAttribute="height" id="gGE-J2-8wK"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vv2-jW-uLA">
+                            <rect key="frame" x="0.0" y="489" width="300" height="50"/>
+                            <color key="backgroundColor" name="ButtonColors"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="3Kj-cP-Jbf"/>
+                                <constraint firstAttribute="width" constant="300" id="xu9-IO-kDB"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="nextBtnPressed:" destination="-1" eventType="touchUpInside" id="RQp-H8-CfQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AJ5-rN-HqI" secondAttribute="trailing" id="5kd-YB-kye"/>
+                <constraint firstItem="AJ5-rN-HqI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LBc-B9-Qpl"/>
+                <constraint firstItem="XL2-5b-gUN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Oea-4T-orh"/>
+                <constraint firstItem="XL2-5b-gUN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="U89-d5-EM8"/>
+                <constraint firstItem="AJ5-rN-HqI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cAZ-pd-va2"/>
+                <constraint firstAttribute="bottom" secondItem="AJ5-rN-HqI" secondAttribute="bottom" id="eGF-La-q48"/>
+            </constraints>
+            <point key="canvasLocation" x="136.92307692307691" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lastoria Logo" width="154" height="215"/>
+        <image name="backgroundLastoria" width="390" height="844"/>
+        <namedColor name="ButtonColors">
+            <color red="0.20784313725490194" green="0.29411764705882354" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

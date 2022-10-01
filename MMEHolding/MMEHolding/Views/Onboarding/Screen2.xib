@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Regular.ttf">
+            <string>Gilroy-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Screen2" customModule="MMEHolding" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="backgroundTexnoStyle" translatesAutoresizingMaskIntoConstraints="NO" id="ajj-ao-kjL">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="vn0-sr-1qJ">
+                    <rect key="frame" x="45" y="153.66666666666663" width="300" height="537"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TexnoStyle Logo" translatesAutoresizingMaskIntoConstraints="NO" id="jTT-ea-zNb">
+                            <rect key="frame" x="48" y="0.0" width="204" height="213"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="213" id="C9j-dd-ufe"/>
+                                <constraint firstAttribute="width" constant="204" id="Lpo-yb-CFI"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2c-OZ-mde">
+                            <rect key="frame" x="0.0" y="251" width="300" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="300" id="77E-hh-mfb"/>
+                                <constraint firstAttribute="height" constant="140" id="wJf-yN-e72"/>
+                            </constraints>
+                            <string key="text">The largest assortment of wedding dresses in Central Asia. Delivering the dress dreams of modern brides around the world. Find your own wedding dress and LaSoria dresses are yours.</string>
+                            <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MCk-v2-Jd0">
+                            <rect key="frame" x="110" y="429" width="80" height="20"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wil-Kb-kht">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="1i7-Yz-Uqh"/>
+                                        <constraint firstAttribute="height" constant="20" id="CA3-ne-6KJ"/>
+                                        <constraint firstAttribute="width" secondItem="wil-Kb-kht" secondAttribute="height" id="FHB-gy-LOc"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGy-gE-laQ">
+                                    <rect key="frame" x="30" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" name="ButtonColors"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="ibi-up-Dl6"/>
+                                        <constraint firstAttribute="width" constant="20" id="nKE-WR-CCm"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-BA-WBa">
+                                    <rect key="frame" x="60" y="0.0" width="20" height="20"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="FFA-lU-fgV"/>
+                                        <constraint firstAttribute="height" constant="20" id="Yjt-dF-KyL"/>
+                                        <constraint firstAttribute="width" secondItem="Ff6-BA-WBa" secondAttribute="height" id="nnS-EF-eHU"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="XGy-gE-laQ" firstAttribute="width" secondItem="XGy-gE-laQ" secondAttribute="height" id="6tM-aI-Uqh"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYF-he-ZJd">
+                            <rect key="frame" x="0.0" y="487" width="300" height="50"/>
+                            <color key="backgroundColor" name="ButtonColors"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="EAn-aa-P34"/>
+                                <constraint firstAttribute="width" constant="300" id="tJF-YI-Zsw"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="nextBtnPressed:" destination="-1" eventType="touchUpInside" id="h83-HD-JhT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ajj-ao-kjL" secondAttribute="trailing" id="5ts-7I-hKQ"/>
+                <constraint firstItem="ajj-ao-kjL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FBG-DW-pd1"/>
+                <constraint firstItem="vn0-sr-1qJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Msa-V3-gGN"/>
+                <constraint firstAttribute="bottom" secondItem="ajj-ao-kjL" secondAttribute="bottom" id="QBE-Ar-a5C"/>
+                <constraint firstItem="vn0-sr-1qJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hoz-U2-cEj"/>
+                <constraint firstItem="ajj-ao-kjL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lXC-cC-GjC"/>
+            </constraints>
+            <point key="canvasLocation" x="136.92307692307691" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="TexnoStyle Logo" width="204" height="213"/>
+        <image name="backgroundTexnoStyle" width="390" height="844"/>
+        <namedColor name="ButtonColors">
+            <color red="0.20784313725490194" green="0.29411764705882354" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
