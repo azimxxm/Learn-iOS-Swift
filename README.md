@@ -38,10 +38,9 @@ This behavior can be avoided by setting a variable ```bash export HOMEBREW_NO_IN
 That looks weird because usually homebrew does not actually delete old versions right away, it usually keeps them so you can switch back later. Except maybe you have been doing ```bash brew cleanup ```.
 
 
-https://www.udemy.com/course/the-complete-ios-developer-course-with-swift/
 
+<a href="https://www.udemy.com/course/the-complete-ios-developer-course-with-swift/">the-complete-ios-developer-course-with-swift</a>
 
-https://www.udemy.com/course/ios-13-app-development-bootcamp/
+<a href="https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/">swiftui-masterclass-course-ios-development-with-swift</a>
 
-
-https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/
+<a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">ios-13-app-development-bootcamp</a>
