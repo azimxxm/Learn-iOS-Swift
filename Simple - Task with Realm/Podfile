@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+
+target 'Task1' do
+  use_frameworks!
+
+  # Pods for Task1
+  pod 'RealmSwift', '~> 10.32'
+
+end
