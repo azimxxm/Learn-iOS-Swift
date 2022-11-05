@@ -28,6 +28,8 @@ class LoginVC: UIViewController {
         chekUser()
     }
 
+//    MARK: - Sign btn Pressed
+
     @IBAction func signInBtnPressed(_ sender: UIButton) {
         switch userType {
         case .edit:
@@ -48,6 +50,8 @@ class LoginVC: UIViewController {
         }
     }
 
+//    MARK: - Auth
+
     func authUser() {
         if let email = emailTF.text, let password = passwordTF.text {
             let users = realm.objects(Users.self)
@@ -59,6 +63,8 @@ class LoginVC: UIViewController {
             }
         }
     }
+
+//    MARK: - Add user
 
     func addUser() {
         if emailTF.text != "", passwordTF.text != "" {
@@ -77,6 +83,8 @@ class LoginVC: UIViewController {
         }
     }
 
+//    MARK: - Edit user
+
     func editUser() {
         let users = realm.objects(Users.self)
         let getUser = users[userIdex!]
@@ -89,6 +97,8 @@ class LoginVC: UIViewController {
             }
         }
     }
+
+//    MARK: - Register user
 
     func registerUser() {
         if let email = emailTF.text, let password = passwordTF.text {
@@ -105,6 +115,8 @@ class LoginVC: UIViewController {
         dismiss(animated: true)
     }
 
+//    MARK: - Delete used
+
     func deleteUser() {
         let userRealm = realm.objects(Users.self)
         let getUser = userRealm[userIdex!]
@@ -118,6 +130,8 @@ class LoginVC: UIViewController {
         delegate?.reloadData()
         dismiss(animated: true)
     }
+
+//    MARK: - Check user
 
     func chekUser() {
         if userDM != nil {
